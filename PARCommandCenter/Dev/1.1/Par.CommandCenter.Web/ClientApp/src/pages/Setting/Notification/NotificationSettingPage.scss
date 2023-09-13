@@ -1,0 +1,18 @@
+﻿
+div#selectTenants > div > div.card-body {
+    height: calc(100vh - 250px);
+}
+
+div#selectTenants button > i {
+    font-size: 22px;
+    padding-right: 28px;
+}
+
+div#selectTenants button {
+    min-width: 105px;
+    min-height: 42px;
+}
+
+div#selectTenants button {
+    padding: 5px 5px;
+}

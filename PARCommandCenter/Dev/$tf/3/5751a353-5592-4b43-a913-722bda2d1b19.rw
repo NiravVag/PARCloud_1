@@ -1,0 +1,6 @@
+﻿
+
+div.queues-table > div > table > tbody
+{
+    height: calc(100vh - 390px);
+}

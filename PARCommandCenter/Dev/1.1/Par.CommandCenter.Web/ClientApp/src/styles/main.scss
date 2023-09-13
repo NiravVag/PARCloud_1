@@ -1,0 +1,66 @@
+﻿// Default theme variables here
+
+@import "./variables";
+@import "./typography";
+@import "./common";
+@import "./overflow";
+@import "./table";
+
+
+.par-navbar {
+    padding-left: 0px !important;  
+}
+
+nav.par-navbar > div > div > div:first-child {
+    padding-left: 10px !important
+}
+
+nav.par-navbar > div > div > div:first-child > div.navbar-wrapper {
+    padding-left: 55px !important
+}
+
+.sidebar .logo {
+    padding: 27px !important;
+}
+
+.sidebar .nav .nav-item .nav-link i {
+    font-size: 20px !important;
+}
+
+.sub-menu p.menu-name {
+    font-size: 14px !important;
+}
+
+.sidebar .nav .nav-item .nav-link i {
+    font-size: 20px !important;
+}
+
+
+.navbar-page-title {
+    font-weight: 600;
+    color: #464a4e;
+    font-size: 23px;
+    white-space: nowrap !important;
+}
+
+/*.sidebar .nav {
+    margin-top: 20px;
+}*/
+
+.ReactTable .rt-thead .rt-th {
+    font-size: 12px !important;
+    text-transform: unset !important;
+    color: inherit !important;
+    font-weight: bold !important;
+    white-space: normal !important;
+    justify-content: center !important;
+}
+
+.ReactTable table > thead > tr > th,
+.ReactTable table > tbody > tr > td {
+    /*  padding: 2px 15px 2px 0 !important;*/
+}
+
+/*.sidebar .nav {
+    margin-top: 20px;
+}*/

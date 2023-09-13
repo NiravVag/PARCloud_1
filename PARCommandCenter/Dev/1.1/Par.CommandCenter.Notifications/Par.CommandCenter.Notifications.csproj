@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <EnableDefaultContentItems Condition="'$(EnableDefaultContentItems)'==''">true</EnableDefaultContentItems>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+
+	<ItemGroup Condition="'$(EnableDefaultItems)' == 'true' And '$(EnableDefaultContentItems)' == 'true'">
+		<Content Include="**\*.cshtml" ExcludeFromSingleFile="true" CopyToPublishDirectory="PreserveNewest" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder);$(DefaultWebContentItemExcludes)" />
+		<Content Include="**\*.razor" ExcludeFromSingleFile="true" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder);$(DefaultWebContentItemExcludes)" />
+		<None Remove="**\*.cshtml" />
+		<None Remove="**\*.razor" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="Templates\NotificationEmailTemplate.cshtml" />
+	  <Content Remove="Templates\_CustomerControllerOfflineEmailTemplate.cshtml" />
+	  <Content Remove="Templates\_CustomerRouterOfflineEmailTemplate.cshtml" />
+	  <Content Remove="Templates\_CustomerVPNConnectionDown.cshtml" />
+	  <Content Remove="Templates\_InterfaceEmailTemplate.cshtml" />
+	  <Content Remove="Templates\_ServerOperationEmailTemplate.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Templates\_InterfaceEmailTemplate.cshtml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Include="Templates\_ServerOperationEmailTemplate.cshtml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Include="Templates\_CustomerControllerOfflineEmailTemplate.cshtml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Include="Templates\_CustomerRouterOfflineEmailTemplate.cshtml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\NotificationEmailTemplate.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Templates\NotificationEmailTemplate.cshtml" />
+    <None Include="Templates\_CustomerVPNConnectionDown.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+	 <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
+	 <PackageReference Include="MailKit" Version="2.15.0" />
+	 <PackageReference Include="PreMailer.Net" Version="2.2.0" />	 
+    <PackageReference Include="Quartz.AspNetCore" Version="3.3.3" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.3.3" />
+    <PackageReference Include="RazorEngine.NetCore" Version="3.1.0" />
+    <PackageReference Include="SecurityCodeScan.VS2019" Version="5.6.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  
+  <ItemGroup>
+	  <ProjectReference Include="..\Par.CommandCenter.Application\Par.CommandCenter.Application.csproj" />
+  </ItemGroup>
+
+</Project>

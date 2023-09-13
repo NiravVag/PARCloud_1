@@ -1,0 +1,32 @@
+﻿.vertical-overflow {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.horizontal-overflow {
+    overflow-x: auto;
+}
+
+.vertical-overflow.scroll-required {
+    overflow-y: scroll;
+}
+
+.full-overflow {
+    overflow: auto;
+}
+
+.hidden-overflow {
+    overflow: hidden;
+}
+
+.hidden-horizontal-overflow {
+    overflow-x: hidden;
+}
+
+.ie-scrollbar {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.webkit-scroll {
+    -webkit-overflow-scrolling: touch;
+}

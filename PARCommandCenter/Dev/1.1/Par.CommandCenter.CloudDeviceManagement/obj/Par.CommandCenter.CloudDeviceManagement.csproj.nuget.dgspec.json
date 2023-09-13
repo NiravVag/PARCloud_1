@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.CloudDeviceManagement\\Par.CommandCenter.CloudDeviceManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\Par.CommandCenter.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\Par.CommandCenter.Application.csproj",
+        "projectName": "Par.CommandCenter.Application",
+        "projectPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\Par.CommandCenter.Application.csproj",
+        "packagesPath": "C:\\Users\\asusl\\.nuget\\packages\\",
+        "outputPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asusl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/par-excellence-systems-inc/_packaging/par-excellence-systems-inc/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj": {
+                "projectPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "GeoJSON.Net": {
+              "target": "Package",
+              "version": "[1.2.19, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.1.0, )"
+            },
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.1.26, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.31.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Par.Command": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Products.Web.API.WebAPIClient": {
+              "target": "Package",
+              "version": "[1.0.37, )"
+            },
+            "SecurityCodeScan.VS2019": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.CloudDeviceManagement\\Par.CommandCenter.CloudDeviceManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.CloudDeviceManagement\\Par.CommandCenter.CloudDeviceManagement.csproj",
+        "projectName": "Par.CommandCenter.CloudDeviceManagement",
+        "projectPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.CloudDeviceManagement\\Par.CommandCenter.CloudDeviceManagement.csproj",
+        "packagesPath": "C:\\Users\\asusl\\.nuget\\packages\\",
+        "outputPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.CloudDeviceManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asusl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/par-excellence-systems-inc/_packaging/par-excellence-systems-inc/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\Par.CommandCenter.Application.csproj": {
+                "projectPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Application\\Par.CommandCenter.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.1.0, )"
+            },
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.31.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SecurityCodeScan.VS2019": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj",
+        "projectName": "Par.CommandCenter.Domain",
+        "projectPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj",
+        "packagesPath": "C:\\Users\\asusl\\.nuget\\packages\\",
+        "outputPath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asusl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/par-excellence-systems-inc/_packaging/par-excellence-systems-inc/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.1.0, )"
+            },
+            "SecurityCodeScan.VS2019": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

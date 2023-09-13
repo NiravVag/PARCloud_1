@@ -1,0 +1,10 @@
+<<
+OW_BRIDGE_PORTS = 
+[%tag1%]
+
+
+
+>>
+CLOUD_API_SERVER=https://cloud-api.parexcellence.com
+IOT_HUB=iot-prod1
+SERVICE_BUS=sb-iot-prod1

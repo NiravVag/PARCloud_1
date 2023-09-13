@@ -1,0 +1,244 @@
+﻿@using Par.CommandCenter.Application.Common.Utilities
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Par Command Notification</title>
+    <style type="text/css">
+        table {
+            border: 1px solid #FFFFFF;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        tr.content-tr {
+            border: 1px solid #FFFFFF;
+            padding: 10px;
+            background-color: #F2F2F2
+        }
+
+        tr.content-tr:nth-child(odd) {
+            background-color: #E1F2EF
+        }
+
+        .head-tr {
+            background-color: #0370BA;
+            color: #FFFFFF;
+        }
+
+        .group-head {
+            background-color: #C0C0C0;
+            font-weight: bold;
+        }
+
+        .sub-group-head {
+            background-color: #DCDCDC;
+            text-indent: 1em;
+            font-weight: bold;
+        }
+
+        .head-th {
+            border: none;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        td {
+            border: 1px solid #FFFFFF;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .border-separator {
+            border-bottom: 4px solid #FFFFFF !important;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="head-tr">
+                <th class="head-th">
+                    <span >PAR Command Notification</</span>
+                    <br />
+                </th>
+            </tr>
+        </thead>
+    </table>
+    <br />
+    <table>
+        <tr>
+            <td>
+                <span class="h3">@Model.Description</span>
+                <span>Click <a href="@Model.ReferenceURL">HERE</a> to view in Par Command</span>
+            </td>
+        </tr>        
+    </table>
+    <br />
+    <table>
+        <thead>
+            <tr class="head-tr">
+                <th class="head-th">
+                    @Model.DisplayName
+                </th>
+            </tr>
+        </thead>
+    </table>
+    @if (@Model.HealthCheckControllers.Any())
+    {
+        var notifications = @Model.HealthCheckControllers;
+        var type = notifications.FirstOrDefault().GetType();
+<table>
+    <tr>
+        <td colspan="2" class="group-head">
+            <span class="h3">@DateTime.Now.ToString("dddd, MMMM, d, yyyy")</span>
+        </td>
+    </tr>
+    @foreach (var group in notifications.GroupBy(x => x.TenantName))
+    {
+        <tr>
+            <td colspan="2" class="sub-group-head">
+                <span>Tenant Name: @group.Key</span>
+            </td>
+        </tr>
+        foreach (var notification in group)
+        {
+            <tr class="content-tr">
+                <td width="40%">
+                            @AttributeHelper.GetPropertyDisPlayName(type, "RouterAddress")
+                </td>
+                <td width="60%">
+                    @notification.RouterAddress
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RouterLastCommunication")
+                </td>
+                @if (notification.RouterLastCommunication.Value == DateTimeOffset.MinValue)
+                {
+                    <td width="60%">
+                        @DateTime.MinValue.ToString("MM/dd/yyyy h:mm tt")
+                    </td>
+                }
+                else
+                {
+                    <td width="60%">
+                        @(notification.RouterLastCommunication.Value.ToOffset(TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time").BaseUtcOffset).ToString("MM/dd/yyyy h:mm tt")
+                    </td>
+                }
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RouterLastReboot")
+                </td>
+                @if (notification.RouterLastReboot.Value == DateTimeOffset.MinValue)
+                {
+                    <td width="60%">
+                        @DateTime.MinValue.ToString("MM/dd/yyyyy h:mm tt")
+                    </td>
+                }
+                else
+                {
+                    <td width="60%">
+                                @(notification.RouterLastReboot.Value.ToOffset(TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time").BaseUtcOffset).ToString("MM/dd/yyyy h:mm tt")
+                    </td>
+                }
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RouterStatus")
+                </td>
+                <td width="60%">
+                    @notification.RouterStatus
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RemoteIpAddress")
+                </td>
+                <td width="60%">
+                    @notification.RemoteIpAddress
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RemoteNetworkPort")
+                </td>
+                <td width="60%">
+                    @notification.RemoteNetworkPort
+                </td>
+            </tr>            
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "TCPTestStatus")
+                </td>
+                <td width="60%">
+                    @notification.TCPTestStatus
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    Status Date
+                </td>
+                <td width="60%">
+                    @TimeZoneInfo.ConvertTimeFromUtc(notification.Modified.Value, TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time")).ToString("MM/dd/yyyy h:mm tt")
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "Status")
+                </td>
+                <td width="60%">
+                    @notification.Status
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "ScalesLocations")
+                </td>
+                <td width="60%">
+                    @notification.ScalesLocations
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "RegisteredScaleCount")
+                </td>
+                <td width="60%">
+                    @notification.RegisteredScaleCount
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "OnlineScaleCount")
+                </td>
+                <td width="60%">
+                    @notification.OnlineScaleCount
+                </td>
+            </tr>
+            <tr class="content-tr">
+                <td class="border-separator" width="40%">
+                    @AttributeHelper.GetPropertyDisPlayName(type, "OfflineScaleCount")
+                </td>
+                <td class="border-separator" width="60%">
+                    @notification.OfflineScaleCount
+                </td>
+            </tr>
+        }
+    }
+    <tr class="content-tr">
+        <td colspan="2">
+            <span>Total Controller Outages: @notifications.Count()</span>
+        </td>
+    </tr>
+</table>
+    }
+</body>
+</html>

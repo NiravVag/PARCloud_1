@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# S112: General exceptions should never be thrown
+#dotnet_diagnostic.S112.severity = silent
+
+# Default severity for all analyzer diagnostics
+#dotnet_analyzer_diagnostic.severity = silent
+
+# S112: General exceptions should never be thrown
+dotnet_diagnostic.S112.severity = silent

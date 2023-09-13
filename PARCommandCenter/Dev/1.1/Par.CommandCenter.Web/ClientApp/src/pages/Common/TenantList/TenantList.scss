@@ -1,0 +1,45 @@
+﻿.form-check-radio {
+    padding: 0;
+}
+
+div#tenantList .list-group-item {
+    padding: .65rem .65rem .65rem 0;
+}
+
+div#tenantList .list-item-icon {
+    margin: 0.4rem;
+    background: none !important;
+    min-height: 65px;
+    min-width: 30px;
+}
+
+
+div#tenantList li.active .list-item-icon > i {
+    color: #0370ba !important;
+  
+}
+
+div#tenantList .time-zone {
+    color: #B8B8B8;
+    font-size: 0.7142em;
+}
+
+div#tenantList .test-icon {
+    color: #B8B8B8;
+    font-size: 0.8em;
+}
+
+.font-size-10 {
+    font-size: 0.8em !important;
+}
+
+/* Icons Styles */
+
+.action-icon {
+    padding-right: 10px;
+}
+
+.action-icon.medium {
+    font-size: 1rem;
+    line-height: 1rem;
+}

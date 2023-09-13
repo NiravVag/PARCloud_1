@@ -1,0 +1,13 @@
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.deps.json
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.csproj.AssemblyReference.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.AssemblyInfoInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.AssemblyInfo.cs
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.csproj.CoreCompileInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.csproj.CopyComplete
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.Application\obj\Debug\netcoreapp3.1\Par.CommandCenter.Application.pdb

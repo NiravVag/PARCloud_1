@@ -1,0 +1,32 @@
+﻿div.dashboard-vpn-table > div > table > tbody,
+div.dashboard-interface-table > div > table > tbody,
+div.dashboard-router-table > div > table > tbody,
+div.dashboard-controller-table > div > table > tbody,
+div.dashboard-scale-table > div > table > tbody {
+    height: calc(100vh - 610px)
+}
+   
+
+.dashboard-table-card {
+    margin-bottom: 0 !important;
+}
+
+div.dashboard-table-card > div.card-body {
+    height: calc(100vh - 450px)
+}
+
+#dashboard #dateRangeFilter .form-control {
+    height: calc(1.5em + 0.75rem + -5px);
+}
+
+.dashboard-card {
+    margin-top: 30px !important;
+}
+
+.dashboard-chart-container {
+    height: 50vh
+}
+
+div.controller-scales-table > div > table > tbody {
+    height: calc(100vh - 610px);
+}

@@ -1,0 +1,39 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54928",
+      "sslPort": 44326
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "LocalDevelopment",
+        "REGION_NAME": "LocalDevelopment",
+        "WEBSITE_RESOURCE_GROUP": "LocalDevelopment"
+        //"AZURE_CLIENT_SECRET": "7bK8Q~uDchJKckpuktUP-64RdcGa1CNVDahZcbwb",
+        //"AZURE_CLIENT_ID": "a907017d-d02e-4c76-ba40-87ace5273d50",
+        //"AZURE_TENANT_ID": "37e40552-cb8a-4398-9aa2-69d6f71aebec",
+        //"AZURE_AUTHORITY_HOST": "https://login.microsoftonline.com/parexcellencesystems.onmicrosoft.com/oauth2/v2.0/authorize"
+      }
+    },
+    "Par.CommandCenter.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:44326;http://localhost:54928",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "LocalDevelopment",
+        "REGION_NAME": "LocalDevelopment",
+        "WEBSITE_RESOURCE_GROUP": "LocalDevelopment"
+        //"AZURE_CLIENT_SECRET": "7bK8Q~uDchJKckpuktUP-64RdcGa1CNVDahZcbwb",
+        //"AZURE_CLIENT_ID": "a907017d-d02e-4c76-ba40-87ace5273d50",
+        //"AZURE_TENANT_ID": "37e40552-cb8a-4398-9aa2-69d6f71aebec",
+        //"AZURE_AUTHORITY_HOST": "https://login.microsoftonline.com/parexcellencesystems.onmicrosoft.com/oauth2/v2.0/authorize"
+      }
+    }
+  }
+}

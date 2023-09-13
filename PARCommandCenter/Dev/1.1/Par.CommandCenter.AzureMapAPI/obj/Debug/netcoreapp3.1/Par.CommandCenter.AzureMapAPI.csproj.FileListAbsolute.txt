@@ -1,0 +1,15 @@
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.deps.json
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.csproj.AssemblyReference.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.AssemblyInfoInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.AssemblyInfo.cs
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.csproj.CoreCompileInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.csproj.CopyComplete
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.AzureMapAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.AzureMapAPI.pdb

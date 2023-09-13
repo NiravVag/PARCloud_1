@@ -1,0 +1,39 @@
+﻿
+#add-pc-cloud-router .steps-h:first-child {
+    min-height: 270px !important;
+    margin-top: 22px;
+}
+
+
+
+#add-pc-cloud-router .steps-step:first-child {
+    height: 295px !important;
+}
+
+
+#add-pc-cloud-router .steps-form .steps-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80%;
+    background-color: #E3E3E3;
+}
+
+/*#add-pc-cloud-router .steps-form .steps-row .steps-step {
+    height: 72px;
+    display: flex;
+    text-align: center;
+    position: relative;
+}*/
+
+
+#add-pc-cloud-router .form-group {
+    margin-bottom: 0 !important;
+}
+
+.label-small {
+    color: #B8B8B8;
+    font-size: 0.7142em !important;
+}

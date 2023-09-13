@@ -1,0 +1,15 @@
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.deps.json
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Application.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\bin\Debug\netcoreapp3.1\Par.CommandCenter.Domain.pdb
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.csproj.AssemblyReference.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.AssemblyInfoInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.AssemblyInfo.cs
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.csproj.CoreCompileInputs.cache
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.csproj.CopyComplete
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.dll
+C:\PARCloud\PARCommandCenter\Dev\1.1\Par.CommandCenter.ProductsWebAPI\obj\Debug\netcoreapp3.1\Par.CommandCenter.ProductsWebAPI.pdb

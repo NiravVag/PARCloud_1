@@ -1,0 +1,11 @@
+﻿div.global-products-table > div > table > tbody {
+    height: calc(100vh - 263px);
+}
+
+
+#globalProductPage div.table-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 130px);
+}

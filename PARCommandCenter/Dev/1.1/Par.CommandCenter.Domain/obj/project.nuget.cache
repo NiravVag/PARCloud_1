@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PkwSCUPP9zp6ZCqfG/IOXONnYnGHD/kGp+At/p6MVucgVyqpkIDNA/O7poqK6hmZ29qik9waOkk9v8VxAovrPQ==",
+  "success": true,
+  "projectFilePath": "C:\\PARCloud\\PARCommandCenter\\Dev\\1.1\\Par.CommandCenter.Domain\\Par.CommandCenter.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asusl\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",
+    "C:\\Users\\asusl\\.nuget\\packages\\securitycodescan.vs2019\\5.6.2\\securitycodescan.vs2019.5.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}

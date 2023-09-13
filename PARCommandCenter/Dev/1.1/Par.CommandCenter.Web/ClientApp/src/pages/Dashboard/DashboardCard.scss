@@ -1,0 +1,12 @@
+﻿.dashboard-card {
+    min-width: 275px;
+    /*min-height: 202px;*/
+    margin-bottom: 10px !important;
+}
+.card-loader {
+    min-height: 24px;    
+}
+
+.card-dashboard.selected {
+    border: 2px solid rgb(3, 112, 186) !important;
+}

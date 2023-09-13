@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Par.CommandCenter.Domain/1.0.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0",
+          "SecurityCodeScan.VS2019": "5.6.2"
+        },
+        "runtime": {
+          "Par.CommandCenter.Domain.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.1.0.0",
+            "fileVersion": "2021.1.0.0"
+          }
+        }
+      },
+      "SecurityCodeScan.VS2019/5.6.2": {}
+    }
+  },
+  "libraries": {
+    "Par.CommandCenter.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "path": "jetbrains.annotations/2021.1.0",
+      "hashPath": "jetbrains.annotations.2021.1.0.nupkg.sha512"
+    },
+    "SecurityCodeScan.VS2019/5.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4zuRJjg2YlmJua7XB53ZRB1iWbyJdbld2YOxLcmchWstU6kz4x6T8Ym/SY8g5ZyFWDreWWn52g+znx6Xcx+BPg==",
+      "path": "securitycodescan.vs2019/5.6.2",
+      "hashPath": "securitycodescan.vs2019.5.6.2.nupkg.sha512"
+    }
+  }
+}

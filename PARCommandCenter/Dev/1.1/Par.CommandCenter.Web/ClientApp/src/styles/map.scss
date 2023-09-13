@@ -1,0 +1,16 @@
+﻿.full-screen-map {
+    position: relative;
+    width: 100%;
+    min-width: 290px;
+    height: 84vh;
+}
+
+.par-navbar {
+    /* padding-left: 0px;*/
+    z-index: 1000;    
+    height: 55px;
+}
+
+div.navbar-minimize > button > i.fa-bars {
+    font-size: 1.30em !important;
+}
